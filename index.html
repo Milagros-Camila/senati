@@ -1,21 +1,39 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
+    <title>Mis Apuntes</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="hola">
+    <header>
+        <h1>Mis Apuntes</h1>
+        <p>Guarda tus ideas y notas aquí. ¡Haz clic en los botones para probar los eventos!</p>
+    </header>
 
-    </div>
-    <button id="prueba">CLICK</button>
-    <hr>
-    <form id="formulario">
-        <input type="text" id="nombre">
-        <button type="submit">Enviar</button>
-    </form>
+    <!-- Sección de apuntes -->
+    <section class="notas">
+        <div class="nota" id="nota1">
+            <h2>Apunte 1</h2>
+            <p>Escribe tu primer apunte aquí.</p>
+            <button id="btnHover">Botón Hover</button>
+        </div>
+        <div class="nota" id="nota2">
+            <h2>Apunte 2</h2>
+            <p>Más contenido interesante.</p>
+            <button id="btnClick">Clic en mí</button>
+        </div>
+    </section>
+
+    <section class="notas">
+        <div class="nota" id="nota3">
+            <h2>Apunte 3</h2>
+            <p>Otro apunte con más información.</p>
+            <button id="btnDblClick">Doble clic</button>
+        </div>
+    </section>
     <script src="main.js"></script>
 </body>
 </html>
+
